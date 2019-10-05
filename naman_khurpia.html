@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  box-shadow: 3px 4px 4px #E2E2E2;
+}
+
+
+
+.logo_img{
+	width: 116px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 160px;
+	margin-bottom: 10px;
+}
+
+.contentstore
+{
+	margin-left: 160px;
+	margin-top: 50px;
+}
+
+.gmail
+{
+	margin-top: 13px;
+	margin-right: 180px;
+	margin-bottom: 5px;
+}
+
+.menu
+{
+	margin-top: 120px;
+	margin-left: 40px;
+}
+.search
+{
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.shop
+{
+	margin-top:20px;
+	margin-left: 40px;
+}
+
+.bells
+{
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.boxed {
+
+	  background-color: #F9FBFB;
+	  margin-top: 50px;
+
+	  margin-left: 14%;
+	  margin-right: 160px;
+
+	  padding-top: 30px;
+	  padding-right: 20px;
+	  padding-left: 30px;
+	  padding-bottom: 30px;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  background-color: #FFFFFF;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 1px 1px 3px #F3F3F3;
+}
+
+.sidebar_img_top
+{
+	margin-top: 100px;
+}
+
+.background
+{
+	background-color: #FDFDFD;
+}
+
+.smallbox
+{
+	width: 90px;
+	margin-top: 80px;
+	
+	background-color: #FFFFFF;
+}
+
+
+
+
+
+.card
+{
+	background-color: #FFFFFF;
+	padding: 20px;
+	box-shadow:  1px 1px 3px #F3F3F3;
+
+}
+
+.parent
+{
+	display: flex;
+}
+.child_two
+{
+	margin-left: 10px;
+}
+
+.container
+{
+	margin-left: 14%;
+}
+
+.card:hover
+{
+	box-shadow:  0 4px 8px 0 #6A6A6A;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="background" >
+	<div class="sidebar">
+		<img class="menu" src="menu.png">
+		<img class="search" src="search.png">
+		<img class="shop" src="shop.png">
+	</div>
+
+	<div class="topnav" id="myTopnav">
+		<a> 
+		<img class = "logo_img" src="logo.png">
+		<img class="gmail" src="gmail.png"  width="42" height="42" style="float:right">
+		<img class  = "bells" src="bells.png"  width="40" height="33" style="float:right">
+		</a>
+	</div>
+
+
+
+
+	<div style="padding-left:16px">
+	  <h1  class = "contentstore">Content Store</h1>
+	  
+	</div>
+
+
+	<div class="boxed">
+		
+	  	<a class="greentext" style="color:#45BEB6;"><b>Got Bulk orders or almost similar orders? Fill the order brief in an excel sheet </b></a>
+	  
+	  	<p><br>If you're wondering about an easy way to place orders in large numbers, we provide a way customized just for that.<br>
+	  	Download our excel sheet, and fill the order brief in the prescribed format and submit. In case you need any help, <u>we<br> are just a click away to assist you in placing your order</u>
+
+	  	</p>
+
+		<br>
+		<button type="button" class="btn btn-default">Order via Excel Sheet</button>
+		
+	</div>
+
+	
+<div class="container">
+<div class="row">
+	
+
+
+	<!--boxx start 1-->
+		<div class ="smallbox col-lg-4 col-md-6 col-sm-12 col-xs-1" >
+		  <div class="card" >
+		  	<div class="parent">
+			  	<div class = "child_one">
+			    	<img  src="person.png" >
+				</div>
+			    
+			    <div class = "child_two">
+			    	<h4><strong>Blog/Article</strong></h4>
+					<p>from ₹500</p>
+				</div>
+
+			</div><!--parent-->
+			<br>
+			<div class="card-body">
+		      <p class="card-text">Typically 450-400 words, an ebook is perfect for your target audience ranging from prospective customers to users</p>
+		      <a href="#" class="btn btn-primary">&nbsp&nbsp&nbsp Order &nbsp&nbsp&nbsp</a>
+		    </div>
+		  </div>
+
+
+		</div><!-- smallbox-->
+	<!--boxx end 1-->
+
+
+	<!--boxx start 2-->
+		<div class ="smallbox col-lg-4 col-md-6 col-sm-12 col-xs-1" >
+		  <div class="card" >
+		  	<div class="parent">
+			  	<div class = "child_one">
+			    	<img  src="person.png" >
+				</div>
+			    
+			    <div class = "child_two">
+			    	<h4><strong>Blog/Article</strong></h4>
+					<p>from ₹500</p>
+				</div>
+
+			</div><!--parent-->
+			<br>
+			<div class="card-body">
+		      <p class="card-text">Typically 450-400 words, an ebook is perfect for your target audience ranging from prospective customers to users</p>
+		      <a href="#" class="btn btn-primary">&nbsp&nbsp&nbsp Order &nbsp&nbsp&nbsp</a>
+		    </div>
+		  </div>
+
+
+		</div><!-- smallbox-->
+	<!--boxx end 2-->
+
+
+	<!--boxx start 3-->
+		<div class ="smallbox col-lg-4 col-md-6 col-sm-12 col-xs-1" >
+		  <div class="card" >
+		  	<div class="parent">
+			  	<div class = "child_one">
+			    	<img  src="person.png" >
+				</div>
+			    
+			    <div class = "child_two">
+			    	<h4><strong>Blog/Article</strong></h4>
+					<p>from ₹500</p>
+				</div>
+
+			</div><!--parent-->
+			<br>
+			<div class="card-body">
+		      <p class="card-text">Typically 450-400 words, an ebook is perfect for your target audience ranging from prospective customers to users</p>
+		      <a href="#" class="btn btn-primary">&nbsp&nbsp&nbsp Order &nbsp&nbsp&nbsp</a>
+		    </div>
+		  </div>
+
+
+		</div><!-- smallbox-->
+	<!--boxx end 3-->
+
+</div>
+<!-- second row-->
+
+<div class="row">
+	
+
+
+	<!--boxx start 1-->
+		<div class ="smallbox col-lg-4 col-md-6 col-sm-12 col-xs-12" >
+		  <div class="card" >
+		  	<div class="parent">
+			  	<div class = "child_one">
+			    	<img  src="person.png" >
+				</div>
+			    
+			    <div class = "child_two">
+			    	<h4><strong>Blog/Article</strong></h4>
+					<p>from ₹500</p>
+				</div>
+
+			</div><!--parent-->
+			<br>
+			<div class="card-body">
+		      <p class="card-text">Typically 450-400 words, an ebook is perfect for your target audience ranging from prospective customers to users</p>
+		      <a href="#" class="btn btn-primary">&nbsp&nbsp&nbsp Order &nbsp&nbsp&nbsp</a>
+		    </div>
+		  </div>
+
+
+		</div><!-- smallbox-->
+	<!--boxx end 1-->
+
+
+	<!--boxx start 2-->
+		<div class ="smallbox col-lg-4 col-md-6 col-sm-12 col-xs-12" >
+		  <div class="card" >
+		  	<div class="parent">
+			  	<div class = "child_one">
+			    	<img  src="person.png" >
+				</div>
+			    
+			    <div class = "child_two">
+			    	<h4><strong>Blog/Article</strong></h4>
+					<p>from ₹500</p>
+				</div>
+
+			</div><!--parent-->
+			<br>
+			<div class="card-body">
+		      <p class="card-text">Typically 450-400 words, an ebook is perfect for your target audience ranging from prospective customers to users</p>
+		      <a href="#" class="btn btn-primary">&nbsp&nbsp&nbsp Order &nbsp&nbsp&nbsp</a>
+		    </div>
+		  </div>
+
+
+		</div><!-- smallbox-->
+	<!--boxx end 2-->
+
+
+	<!--boxx start 3-->
+		<div class ="smallbox col-lg-4 col-md-6 col-sm-12 col-xs-12" >
+		  <div class="card" >
+		  	<div class="parent">
+			  	<div class = "child_one">
+			    	<img  src="person.png" >
+				</div>
+			    
+			    <div class = "child_two">
+			    	<h4><strong>Blog/Article</strong></h4>
+					<p>from ₹500</p>
+				</div>
+
+			</div><!--parent-->
+			<br>
+			<div class="card-body">
+		      <p class="card-text">Typically 450-400 words, an ebook is perfect for your target audience ranging from prospective customers to users</p>
+		      <a href="#" class="btn btn-primary">&nbsp&nbsp&nbsp Order &nbsp&nbsp&nbsp</a>
+		    </div>
+		  </div>
+
+
+		</div><!-- smallbox-->
+	<!--boxx end 3-->
+
+</div>
+
+<!-- third row-->
+
+<div class="row">
+	
+
+
+	<!--boxx start 1-->
+		<div class ="smallbox col-lg-4 col-md-6 col-sm-12 col-xs-12" >
+		  <div class="card" >
+		  	<div class="parent">
+			  	<div class = "child_one">
+			    	<img  src="person.png" >
+				</div>
+			    
+			    <div class = "child_two">
+			    	<h4><strong>Blog/Article</strong></h4>
+					<p>from ₹500</p>
+				</div>
+
+			</div><!--parent-->
+			<br>
+			<div class="card-body">
+		      <p class="card-text">Typically 450-400 words, an ebook is perfect for your target audience ranging from prospective customers to users</p>
+		      <a href="#" class="btn btn-primary">&nbsp&nbsp&nbsp Order &nbsp&nbsp&nbsp</a>
+		    </div>
+		  </div>
+
+
+		</div><!-- smallbox-->
+	<!--boxx end 1-->
+
+
+	<!--boxx start 2-->
+		<div class ="smallbox col-lg-4 col-md-6 col-sm-12 col-xs-12" >
+		  <div class="card" >
+		  	<div class="parent">
+			  	<div class = "child_one">
+			    	<img  src="person.png" >
+				</div>
+			    
+			    <div class = "child_two">
+			    	<h4><strong>Blog/Article</strong></h4>
+					<p>from ₹500</p>
+				</div>
+
+			</div><!--parent-->
+			<br>
+			<div class="card-body">
+		      <p class="card-text">Typically 450-400 words, an ebook is perfect for your target audience ranging from prospective customers to users</p>
+		      <a href="#" class="btn btn-primary">&nbsp&nbsp&nbsp Order &nbsp&nbsp&nbsp</a>
+		    </div>
+		  </div>
+
+
+		</div><!-- smallbox-->
+	<!--boxx end 2-->
+
+
+	<!--boxx start 3-->
+		<div class ="smallbox col-lg-4 col-md-6 col-sm-12 col-xs-12" >
+		  <div class="card" >
+		  	<div class="parent">
+			  	<div class = "child_one">
+			    	<img  src="person.png" >
+				</div>
+			    
+			    <div class = "child_two">
+			    	<h4><strong>Blog/Article</strong></h4>
+					<p>from ₹500</p>
+				</div>
+
+			</div><!--parent-->
+			<br>
+			<div class="card-body">
+		      <p class="card-text">Typically 450-400 words, an ebook is perfect for your target audience ranging from prospective customers to users</p>
+		      <a href="#" class="btn btn-primary">&nbsp&nbsp&nbsp Order &nbsp&nbsp&nbsp</a>
+		    </div>
+		  </div>
+
+
+		</div><!-- smallbox-->
+	<!--boxx end 3-->
+
+</div>
+
+<!-- last row-->
+
+<div class="row">
+	
+
+
+	<!--boxx start 1-->
+		<div class ="smallbox col-lg-4 col-md-6 col-sm-12 col-xs-12" >
+		  <div class="card" >
+		  	<div class="parent">
+			  	<div class = "child_one">
+			    	<img  src="person.png" >
+				</div>
+			    
+			    <div class = "child_two">
+			    	<h4><strong>Blog/Article</strong></h4>
+					<p>from ₹500</p>
+				</div>
+
+			</div><!--parent-->
+			<br>
+			<div class="card-body">
+		      <p class="card-text">Typically 450-400 words, an ebook is perfect for your target audience ranging from prospective customers to users</p>
+		      <a href="#" class="btn btn-primary">&nbsp&nbsp&nbsp Order &nbsp&nbsp&nbsp</a>
+		    </div>
+		  </div>
+
+
+		</div><!-- smallbox-->
+	<!--boxx end 1-->
+	</div>
+
+
+
+
+
+</div><!--container-->
+
+
+
+
+
+</div><!-- background-->
+
+<script>
+function myFunction() {
+
+}
+</script>
+
+
+
+
+</body>
+</html>
