@@ -58,6 +58,13 @@ time, mark, audio, video {
    background: transparent;
 }
 
+.job-description {
+   margin-bottom: 1px;
+   font-size: 12px;
+} 
+
+
+
 .pclass{
 	   background: #fff;
    font-family: 'opensans-regular', sans-serif;
@@ -809,6 +816,120 @@ properly.
 	margin-left: auto !important;
 	margin-right: auto !important;
 	text-align: center !important;
+}
+
+
+
+
+.floating-button {
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   background-color: #007BFF;
+   color: #fff !important;
+   padding: 10px 15px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+
+.rounded-box {
+   display: inline-block;
+   
+   padding-top: 4px;
+   padding-bottom: 1px;
+   padding-inline-start: 8px;
+   padding-inline-end: 8px;
+   vertical-align: middle;
+   white-space: nowrap;
+   font-size: 12px;
+   margin-right: 5px;
+   margin-bottom: 5px;
+
+   background-color: #11ABB0;
+   color: #fff;
+   border-radius: 10px;
+   text-align: center;
+   cursor: pointer;
+   transition: background-color 0.3s ease-in-out;
+}
+
+.rounded-box:hover {
+   background-color: #217dbb;
+}
+
+.setbackwhite{
+   background-color: #fff;
+}
+
+.headonside{
+   font-family: opensans-bold, sans-serif;
+   font-size: 18px;
+   padding: 0 0 6px;
+   border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(17, 171, 176);
+    letter-spacing: 1px;
+}
+
+.project-section {
+   font-family: 'Arial', sans-serif;
+   background-color: #fff;
+   padding-top: 30px;
+   padding-left: 130px;
+   padding-right: 130px;
+   padding-bottom: 30px;
+   display: flex;
+   align-items: center;
+}
+
+.project-details {
+   text-align: left;
+   padding-right: 20px;
+   margin-bottom: 20px;
+   flex: 1; /* Allow the content to take available space */
+}
+
+.project-details h2 {
+   color: #333;
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+
+.project-details p {
+   color: #666;
+   font-size: 16px;
+   line-height: 1.5;
+}
+
+.project-image img {
+   width: 860px;
+   height: 350px;
+   max-width: 560px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Query for smaller screens (phones) */
+@media only screen and (max-width: 600px) {
+   .project-section {
+       flex-direction: column;
+       padding: 0 20px;
+   }
+
+   .project-details,
+   .project-image {
+       padding-right: 0;
+       text-align: center;
+       margin-bottom: 20px;
+   }
+
+   .project-image img {
+       width: 100%;
+       height: auto;
+       max-width: none;
+   }
 }
 
 
