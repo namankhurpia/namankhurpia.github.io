@@ -934,4 +934,7 @@ properly.
 
 
 
-
+.sidebyside{
+   display: flex;
+   
+}
