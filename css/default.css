@@ -938,3 +938,25 @@ properly.
    display: flex;
    
 }
+
+/* Set a maximum width for the container */
+.icon-container {
+   max-width: 100%;
+   overflow-x: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+
+/* Style for each icon */
+.icon {
+   margin: 5px;
+}
+
+/* Media query for smaller screens (adjust the breakpoint as needed) */
+@media screen and (max-width: 600px) {
+   .icon {
+         width: 30%; /* Make each icon take the full width on smaller screens */
+   }
+}
